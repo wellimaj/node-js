@@ -1,0 +1,60 @@
+body {
+  background-color: skyblue;
+}
+.form-bowl {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Readex Pro", sans-serif;
+}
+input {
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+}
+.form-bowl button {
+  background-color: rgb(5, 15, 44);
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+}
+.form-bowl button:hover {
+  background-color: snow;
+  color: black;
+}
+.bowl {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add-bowl {
+  height: 100px;
+}
+.add-bowl button {
+  background-color: rgb(5, 15, 44);
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+}
+.add-bowl button:hover {
+  background-color: snow;
+  color: black;
+}
+.user-bowl {
+  display: flex;
+  flex-direction: column;
+}
+.usercard {
+  box-sizing: border-box;
+  height: 60px;
+
+  background-color: tan;
+  border-radius: 5px;
+  margin: 5px;
+}
